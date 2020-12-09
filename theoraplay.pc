@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/theoraplay
+
+Name: Theoraplay
+Description: TheoraPlay; multithreaded Ogg Theora/Ogg Vorbis decoding.
+URL: https://github.com/neet93/Theoraplay/tree/main
+Version: 0.1.0
+Libs: -L${libdir} -ltheoraplay
+Cflags: -I${includedir}
