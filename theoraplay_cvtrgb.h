@@ -12,6 +12,8 @@
 #error Do not include this in your app. It is used internally by TheoraPlay.
 #endif
 
+/* For more info on how these conversions are performed:
+ *https://en.wikipedia.org/wiki/YUV#Y%E2%80%B2UV420p_(and_Y%E2%80%B2V12_or_YV12)_to_RGB888_conversion*/
 static unsigned char *THEORAPLAY_CVT_FNNAME_420(const th_info *tinfo,
                                                 const th_ycbcr_buffer ycbcr)
 {

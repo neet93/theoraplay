@@ -44,8 +44,7 @@ typedef unsigned char *(*ConvertVideoFrameFn)(const th_info *tinfo,
 
 static unsigned char *ConvertVideoFrame420ToYUVPlanar(
                             const th_info *tinfo, const th_ycbcr_buffer ycbcr,
-                            const int p0, const int p1, const int p2)
-{
+                            const int p0, const int p1, const int p2) {
     int i;
     const int w = tinfo->pic_width;
     const int h = tinfo->pic_height;
