@@ -4,6 +4,8 @@
  * Please see the file LICENSE.txt in the source's root directory.
  *
  *  This file written by Ryan C. Gordon.
+ *  Modified by neet93.
+ *  Description: YCbCr color conversion(https://wiki.multimedia.cx/index.php/YCbCr).
  */
 
 #if !THEORAPLAY_INTERNAL
