@@ -3,7 +3,7 @@ CFLAGS = '-Wall'
 
 desc 'Builds pv.c the Play Video test.'
 task :pv do
-    sh "#{CC} #{CFLAGS} pv.c -o pv `pkg-config --cflags --libs theoraplay`"
+    sh "#{CC} #{CFLAGS} pv.c -o pv `pkg-config --cflags --libs sdl2 theoraplay`"
 end
 
 desc 'Builds test_audio.c the SDL2 audio(WAV) test.'
