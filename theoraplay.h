@@ -16,7 +16,7 @@ extern "C" {
 #endif
 
 /*Semantic Versioning: https://semver.org.*/
-#define THEORAPLAY_VERSION "0.1.0"
+#define THEORAPLAY_VERSION "0.1.1"
 
 typedef struct THEORAPLAY_Io THEORAPLAY_Io;
 struct THEORAPLAY_Io
