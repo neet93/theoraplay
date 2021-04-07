@@ -21,3 +21,4 @@ rake # To build
 rake install # To install
 rake uninstall # To uninstall
 ```
+By default the installation path is /usr/local, but this can change by editing the Rakefile.
