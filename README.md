@@ -29,5 +29,6 @@ By default the installation path is /usr/local, but this can change by editing t
 PREFIX = "#{Dir.home}/some/dir"
 ```
 ```shell
+# In theoraplay.pc
 prefix=home/some/dir
 ```
