@@ -21,4 +21,13 @@ rake # To build
 rake install # To install
 rake uninstall # To uninstall
 ```
-By default the installation path is /usr/local, but this can change by editing the Rakefile.
+
+## Change Install Path
+By default the installation path is /usr/local, but this can change by editing the Rakefile, & the theoraplay.pc file.
+```ruby
+# In Rakefile
+PREFIX = "#{Dir.home}/some/dir"
+```
+```shell
+prefix=home/some/dir
+```
